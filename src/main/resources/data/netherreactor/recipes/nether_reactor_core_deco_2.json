@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "netherreactor:nether_reactor_core_off_deco"
+        }
+    ],
+    "result": {
+        "item": "netherreactor:nether_reactor_core_deco",
+        "count": 1
+    }
+}

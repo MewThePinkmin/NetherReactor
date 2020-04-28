@@ -1,0 +1,41 @@
+modLoader="javafml" #mandatory
+
+loaderVersion="[31,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+
+issueTrackerURL="http://my.issue.tracker/" #optional
+
+[[mods]] #mandatory
+
+modId="netherreactor" #mandatory
+
+version="0.9" #mandatory
+
+displayName="Nether Reactor" #mandatory
+
+displayURL="http://example.com/" #optional
+
+logoFile="logo.png" #optional
+
+credits="TurtyWurty's modding tutorials"
+
+authors="Mew_The_Pinkmin"
+
+description='''
+Adds the Nether reactor, which when activated spawns a large spire with loot and hostile pigmen to fight. 
+There are two new types of reactor structures on top of the original from minecraft pocket edition. By replacing the cobblestone of the structure with obsidian or iron blocks, you can spawn harder version of the fight with better loot.
+'''
+
+[[dependencies.netherreactor]]
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[31,)" #mandatory
+    ordering="NONE"
+    # Side this dependency is applied on - BOTH, CLIENT or SERVER
+    side="BOTH"
+# Here's another dependency
+[[dependencies.netherreactor]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"

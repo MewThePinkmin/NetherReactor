@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#L#",
+        "###"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:obsidian"
+      },
+      "L": {
+        "item": "minecraft:lava_bucket"
+      }
+    },
+    "result": {
+        "item": "netherreactor:glowing_obsidian",
+        "count": 8
+    }
+}

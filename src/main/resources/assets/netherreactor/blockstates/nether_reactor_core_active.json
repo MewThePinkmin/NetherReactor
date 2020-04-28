@@ -1,0 +1,5 @@
+{
+	"variants": {
+		"": { "model": "netherreactor:block/nether_reactor_core_active" }
+	}
+}

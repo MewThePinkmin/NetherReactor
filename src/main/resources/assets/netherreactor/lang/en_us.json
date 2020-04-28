@@ -1,0 +1,23 @@
+{
+	"item.netherreactor.ad_item": "Advancement Texture",
+	
+	"block.netherreactor.glowing_obsidian": "Glowing Obsidian",
+	"block.netherreactor.crystaline_glowing_obsidian": "Crystaline Glowing Obsidian",
+	"block.netherreactor.nether_reactor_core": "Nether Reactor Core",
+	"block.netherreactor.nether_reactor_core_active": "Nether Reactor Core Active",
+	"block.netherreactor.nether_reactor_core_off": "Nether Reactor Core Off",
+	"block.netherreactor.nether_reactor_core_deco": "Decorative Nether Reactor Core",
+	"block.netherreactor.nether_reactor_core_active_deco": "Active Decorative Nether Reactor Core",
+	"block.netherreactor.nether_reactor_core_off_deco": "Deactiveated Decorative Nether Reactor Core",
+	"block.netherreactor.hostile_zombie_skull": "Hostile Zombie Pigman Skull",
+	"block.netherreactor.false_obs": "Obsidian",
+	
+	"entity.netherreactor.hostile_pigman": "Hostile Zombie Pigman",
+	
+	"netherreactor.message.invalid_struc": "Core Structure Invalid",
+	"netherreactor.message.invalid_dim": "The reaction will not run in this dimension",
+	"netherreactor.message.invalid_player": "You are not close enough to trigger the reactor",
+	"netherreactor.message.invalid_y": "The reaction will not run at this height",
+	"netherreactor.message.start": "Event Starting!"
+	
+}

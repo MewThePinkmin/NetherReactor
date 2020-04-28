@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "netherreactor:glowing_obsidian"
+        }
+    ],
+    "result": {
+        "item": "netherreactor:crystaline_glowing_obsidian"
+    }
+}
