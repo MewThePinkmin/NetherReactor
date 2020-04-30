@@ -12,7 +12,7 @@ version="0.9" #mandatory
 
 displayName="Nether Reactor" #mandatory
 
-displayURL="http://example.com/" #optional
+#displayURL="http://example.com/" #optional
 
 logoFile="logo.png" #optional
 
