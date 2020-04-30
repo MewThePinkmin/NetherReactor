@@ -12,11 +12,11 @@ version="0.9" #mandatory
 
 displayName="Nether Reactor" #mandatory
 
-#displayURL="http://example.com/" #optional
+displayURL="https://www.curseforge.com/minecraft/mc-mods/nether-reactor/" #optional
 
 logoFile="logo.png" #optional
 
-credits="TurtyWurty's modding tutorials"
+credits="TurtyWurty's modding tutorials and discord"
 
 authors="Mew_The_Pinkmin"
 
