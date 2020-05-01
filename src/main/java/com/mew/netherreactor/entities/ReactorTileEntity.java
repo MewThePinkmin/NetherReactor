@@ -99,7 +99,7 @@ public class ReactorTileEntity extends TileEntity implements ITickableTileEntity
 			if (tick == 20) glow(1, false);
 			if (tick == 40) glow(2, false);
 			if (tick == 60) glow(3, false);
-			if (tick == 100) {glow(4, false); glow(8, false);}
+			if (tick == 100) glow(4, false);
 			if (tick == 110) spawnPigmen(3);
 			if (tick == 200) spawnBlaze(2, true, false);
 			if (tick == 280) spawnPigmen(1);

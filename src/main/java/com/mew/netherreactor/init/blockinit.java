@@ -56,9 +56,9 @@ public class blockinit {
 		event.getRegistry().register(new BlockItem(nether_reactor_core_active_deco, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName("nether_reactor_core_active_deco"));
 		event.getRegistry().register(new BlockItem(nether_reactor_core_off_deco, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName("nether_reactor_core_off_deco"));
 				
-		event.getRegistry().register(new BlockItem(nether_reactor_core, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName("nether_reactor_core"));
+		event.getRegistry().register(new BlockItem(nether_reactor_core, new Item.Properties().group(ItemGroup.MISC)).setRegistryName("nether_reactor_core"));
 		event.getRegistry().register(new BlockItem(nether_reactor_core_active, new Item.Properties()).setRegistryName("nether_reactor_core_active"));
-		event.getRegistry().register(new BlockItem(nether_reactor_core_off, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName("nether_reactor_core_off"));
+		event.getRegistry().register(new BlockItem(nether_reactor_core_off, new Item.Properties().group(ItemGroup.MISC)).setRegistryName("nether_reactor_core_off"));
 		
 		event.getRegistry().register(new BlockItem(false_obs, new Item.Properties()).setRegistryName("false_obs"));
 	}
