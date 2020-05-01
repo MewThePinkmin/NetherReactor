@@ -8,7 +8,7 @@ issueTrackerURL="http://my.issue.tracker/" #optional
 
 modId="netherreactor" #mandatory
 
-version="0.9" #mandatory
+version="0.9.1" #mandatory
 
 displayName="Nether Reactor" #mandatory
 
