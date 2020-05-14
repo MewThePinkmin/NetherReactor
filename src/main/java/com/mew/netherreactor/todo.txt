@@ -3,3 +3,4 @@ make an advancement
 make zombie skull
 make zombie spawn egg
 create better logo png
+Fix bug preventing the player from breaking an active reactor core

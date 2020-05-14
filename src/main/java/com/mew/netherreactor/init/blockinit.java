@@ -2,6 +2,7 @@ package com.mew.netherreactor.init;
 
 import com.mew.netherreactor.NetherReactor;
 import com.mew.netherreactor.blocks.ActiveReactorCore;
+import com.mew.netherreactor.blocks.ExReactor;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
@@ -31,6 +32,7 @@ public class blockinit {
 	public static final Block nether_reactor_core_off = null;
 	
 	public static final Block false_obs = null; // used to prevent portals from forming in the main room of the obsidian spire.
+	public static final Block ex_reactor = null; // example reactor structure block
 	
 	@SubscribeEvent
 	public static void registerBlocks(final RegistryEvent.Register<Block> event) {
@@ -45,7 +47,7 @@ public class blockinit {
 		event.getRegistry().register(new Block(Block.Properties.create(Material.IRON, MaterialColor.BLACK).hardnessAndResistance(5.0F, 10.0F).harvestTool(ToolType.PICKAXE).sound(SoundType.METAL)).setRegistryName("nether_reactor_core_off"));
 		
 		event.getRegistry().register(new Block(Block.Properties.create(Material.ROCK, MaterialColor.BLACK).hardnessAndResistance(50.0F, 1200.0F).harvestTool(ToolType.PICKAXE)).setRegistryName("false_obs"));
-
+		event.getRegistry().register(new ExReactor(Block.Properties.create(Material.ROCK, MaterialColor.GRAY).hardnessAndResistance(4.0F, 8.0F).harvestTool(ToolType.PICKAXE).notSolid()).setRegistryName("ex_reactor"));
 	}
 	
 	@SubscribeEvent
@@ -61,6 +63,7 @@ public class blockinit {
 		event.getRegistry().register(new BlockItem(nether_reactor_core_off, new Item.Properties().group(ItemGroup.MISC)).setRegistryName("nether_reactor_core_off"));
 		
 		event.getRegistry().register(new BlockItem(false_obs, new Item.Properties()).setRegistryName("false_obs"));
+		event.getRegistry().register(new BlockItem(ex_reactor, new Item.Properties().group(ItemGroup.DECORATIONS)).setRegistryName("ex_reactor"));
 	}
 	
 }
